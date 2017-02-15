@@ -1,0 +1,52 @@
+body {
+    color: gray;
+}
+.box {
+    margin: 20px auto 0;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box h1 {
+    padding: 15px;
+    color: white;
+    background: #009688;
+}
+.box form {
+    margin: 20px;
+}
+.context {
+    overflow: auto;
+    margin-top: 10px;
+}
+.context label {
+    display: block;
+}
+.context input, .context textarea {
+    padding: 10px;
+    /*默认为父元素的内容宽度*/
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid gray;
+    /*去掉点击后的边框*/
+    outline: none;
+}
+.choose {
+    margin-top: 20px;
+    position: relative;
+}
+.choose input {
+    margin-top: 10px;
+}
+.choose .radio {
+    position: absolute;
+    left: 50%;
+}
+form button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0 30px;
+}
+
