@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code3.3</title>
+	<style>
+		.box {
+			width: 300px;
+			height: 100px;
+			border: 1px solid grey;
+			margin: 50px;
+		}
+		.box:before {
+			content: "";
+			width: 10px;
+			height: 10px;
+			border-left: 1px solid grey;
+			border-top: 1px solid grey;
+			background: #fff;
+			display: inline-block;
+			transform: rotateZ(45deg);
+			position: relative;
+			top: -12px;
+			left: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="box">
+</div>
+</body>
+</html>
