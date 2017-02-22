@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code1</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			background: #fff2e3;
+		}
+		li {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			opacity: 0.8;
+		}
+		.wp {
+			width: 800px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		header {
+			margin-top: 40px;
+		}
+		header h1 {
+			font-size: 42px;
+			color: #87968e;
+		}
+		header p {
+			font-size: 15px;
+			margin-top: 20px;
+			color: #87968e;
+		}
+		header .project {
+			margin-top: 40px;
+		}
+		header .project:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		header li {
+			display: inline-block;
+		}
+		.active {
+			opacity: 0.6;
+		}
+		header a, .prov a {
+			display: inline-block;
+			width: 65px;
+			height: 30px;
+			line-height: 30px;
+			color: white;
+			margin-left: 15px;
+			border-radius: 3px;
+			background: rgb(114, 184, 144);
+		}
+
+		.prov {
+			margin-top: 50px;
+		}
+		.prov .check {
+			margin-top: 25px;
+		}
+		.prov li {
+			display: inline-block;
+		}
+		.prov a {
+			width: 80px;
+		}
+
+
+		footer {
+			margin-top: 40px;
+		}
+		footer a {
+			color: #72b890;
+		}
+	</style>
+</head>
+<body>
+	<div class="wp">
+		<header>
+			<h1>我的项目</h1>
+			<p>一句话项目介绍</p>
+			<ul class="project">
+				<li><a href="#" class="active">项目1</a></li>
+				<li><a href="#">项目2</a></li>
+				<li><a href="#">项目3</a></li>
+				<li><a href="#">项目4</a></li>
+				<li><a href="#">项目5</a></li>
+			</ul>
+		</header>
+		<div class="prov">
+			<img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" alt="image">
+			<ul class="check">
+				<li><a href="#">查看源码</a></li>
+				<li><a href="#">使用说明</a></li>
+			</ul>
+		</div>
+		<footer>
+			<span>作者：</span><a href="#">我</a>
+		</footer>
+	</div>
+
+</body>
+</html>
