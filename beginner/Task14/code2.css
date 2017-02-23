@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    background: gray;
+}
+.wp {
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+header {
+    padding-top: 50px;
+}
+header div {
+    float: left;
+}
+.info {
+    box-sizing: border-box;
+    width: 60%;
+    position: relative;
+    padding-left: 40px;
+}
+.info img {
+    width: 150px;
+}
+.name {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.contact {
+    width: 40%;
+}
+.contact h3 {
+    border-bottom: 5px solid #333;
+    margin-bottom: 10px;
+}
+
+
+.experience, .education {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.experience>h2, .education>h2 {
+    border-bottom: 1px solid #e8e8e8;
+    width: 40%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.experience ul, .education ul {
+    margin-left: 10px;
+    padding-left: 60px;
+    border-left: 2px solid #333;
+}
+.experience li:before, .education li:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    left: -66px;
+    top: -15px;
+}
+.experience span, .education span {
+    color: gray;
+}
+.experience h3, .education h3, .experience p, .education p {
+    position: relative;
+    top: -35px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    margin-top: 40px;
+}
+footer div {
+    float: left;
+}
+.activities {
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+.activities h2, .skill h2 {
+    border-bottom: 1px solid #e8e8e8;
+    width: 400px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.activities li, .skill li {
+    margin-bottom: 20px;
+}
