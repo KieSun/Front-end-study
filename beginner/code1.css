@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clear:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.nav {
+    width: 100%;
+    height: 70px;
+    background: #222;
+    position: fixed;
+}
+.bar {
+    height: 70px;
+    margin: 0 60px;
+    line-height: 70px;
+}
+.bar>a {
+    color: #fed136;
+}
+.bar ul {
+    float: right;
+}
+.bar ul li {
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+.bar ul li a {
+    font-size: 15px;
+    color: white;
+}
+.bar ul li a:hover {
+    color: #fed136;
+}
+
+
+
+header {
+    padding-top: 70px;
+    width: 100%;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG/1024px-%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG") no-repeat;
+    background-size: cover;
+}
+.welcome {
+    color: white;
+    padding-top: 250px;
+    padding-bottom: 300px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.welcome h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.welcome a {
+    color: white;
+    padding: 20px 30px;
+    background: #fed136;
+    border-radius: 5px;
+}
+.welcome a:hover {
+    opacity: .8;
+}
+
+
+.services {
+    width: 100%;
+    height: 400px;
+}
+.services-title {
+    width: 800px;
+    margin: 100px auto 70px;
+    text-align: center;
+}
+.services-title h3 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.services-title p {
+    color: gray;
+    font-style: italic;
+}
+.services-list {
+    margin: 0 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.services-list li {
+    float: left;
+    width: 33.3%;
+}
+.services-list h4 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.services-list p {
+    color: gray;
+    font-size: 15px;
+}
+
+
+.scenery {
+    text-align: center;
+    background: #f7f7f7;
+
+}
+.scenery-wp {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.scenery-wp h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.scenery-list {
+    margin-left: -30px;
+}
+.scenery-list li {
+    float: left;
+    height: 330px;
+    width: 360px;
+    margin-left: 30px;
+    background: white;
+    margin-bottom: 30px;
+}
+.scenery-list img {
+    width: 100%;
+    height: 260px;
+}
+.scenery-list p {
+    line-height: 70px;
+}
+
+.about {
+    text-align: center;
+    padding: 150px 0;
+}
+.about h1 {
+    margin-bottom: 50px;
+}
+.about ul {
+    width: 800px;
+    margin: 0 auto;
+}
+.about li {
+    margin-bottom: 50px;
+}
+.about li:nth-child(1) .image:after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 100px;
+    background: gray;
+    position: relative;
+    left: -240px;
+    top: 100px;
+}
+
+.about li:nth-child(1) img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: relative;
+    left: -150px;
+}
+.about li:nth-child(2) img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: relative;
+    left: 150px;
+}
+
+.about li:nth-child(1) .text {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+.about li:nth-child(2) .text {
+    float: right;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+
+
+.contact {
+    padding: 150px 0;
+    width: 100%;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG/1024px-%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.contact h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.contact form {
+    width: 1140px;
+    margin: 0 auto;
+}
+.contact form div {
+    float: left;
+    width: 50%;
+}
+.contact .info {
+    margin-left: -30px;
+}
+.contact .info input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact textarea {
+    margin-left: 50px;
+    padding: 10px;
+    width: 100%;
+    height: 170px;
+    border: none;
+    border-radius: 5px;
+}
+.contact form button {
+    width: 200px;
+    height: 60px;
+    background: #fed136;
+    margin: 50px auto 0;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -270px;
+}
+
+
+footer {
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+footer span {
+    float: left;
+    margin-left: 100px;
+}
+
+footer .middle {
+    margin-top: -10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-20%);
+}
+footer .middle li {
+    float: left;
+}
+
+footer .middle a {
+    margin-right: 20px;
+}
+
+footer .middle img {
+    width: 50px;
+}
+
+footer .right {
+    float: right;
+    margin-right: 100px;
+}
+footer .right li {
+    float: left;
+    margin-right: 20px;
+}
+footer .right a {
+    color: #fed136;
+}
+footer .right a:hover {
+    text-decoration: underline;
+}
