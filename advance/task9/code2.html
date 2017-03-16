@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code2</title>
+    <style>
+        .img-preview {
+            width: 100px;
+            height: 100px;
+            background: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ct">
+        <li data-img="1.png">鼠标放置查看图片1</li>
+        <li data-img="2.png">鼠标放置查看图片2</li>
+        <li data-img="3.png">鼠标放置查看图片3</li>
+    </ul>
+    <div class="img-preview"></div>
+
+    <script>
+        var ul = document.querySelector('.ct');
+        var imgPreview = document.querySelector('.img-preview');
+        ul.addEventListener('mouseover', function (event) {
+            imgPreview.style.display = 'block';
+            var li = event.target;
+            var img = document.createElement('img');
+            img.src = li.getAttribute('data-img');
+            if (imgPreview.firstElementChild) {
+                imgPreview.replaceChild(img, imgPreview.firstElementChild);
+            } else {
+                imgPreview.appendChild(img);
+            }
+        });
+        ul.addEventListener('mouseout', function () {
+            imgPreview.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
