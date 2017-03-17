@@ -3,8 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Code1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .wrap {
+            width: 900px;
+            margin: 0 auto;
+            border: 1px solid #333;
+        }
+        li {
+            list-style: none;
+        }
+        .clear:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .tab > li {
+            float: left;
+            box-sizing: border-box;
+            width: 300px;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .tab .active {
+            background: gray;
+        }
+        .container li {
+            padding: 20px;
+            display: none;
+        }
+        .container .active {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="wrap">
+        <ul class="tab clear">
+            <li class="active">tab1</li>
+            <li>tab2</li>
+            <li>tab3</li>
+        </ul>
+        <ul class="container">
+            <li class="active">内容1</li>
+            <li>内容2</li>
+            <li>内容3</li>
+        </ul>
+    </div>
+    <script>
+        var tab = document.querySelector('.tab');
+        tab.addEventListener('click', function (event) {
+            var lis = document.querySelectorAll('.tab>li');
+            var container = document.querySelectorAll('.container>li');
+            var target = event.target;
+            for (var i = 0; i < lis.length; i++) {
+                container[i].classList.remove('active');
+                lis[i].classList.remove('active');
+            }
+            target.classList.add('active');
+            var index = [].indexOf.call(lis, target);
+            container[index].classList.add('active');
+        })
+    </script>
 </body>
 </html>
