@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3df3b2-df48-470b-bb62-60e648b5b85b" name="Default" comment="task1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance/task10/code3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BDTask/JS/task3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HTML表单的使用方法.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beginner/Task5/HTML表单的使用方法.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beginner/Task5/test.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task10/code3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+            <state relative-caret-position="122">
+              <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BDTask/JS/task3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/advance/task10/code2.html" />
         <option value="$PROJECT_DIR$/advance/task10/code1.html" />
         <option value="$PROJECT_DIR$/advance/task10/code3.html" />
+        <option value="$PROJECT_DIR$/BDTask/JS/task3.html" />
       </list>
     </option>
   </component>
@@ -156,8 +157,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="308" />
-    <option name="y" value="80" />
+    <option name="x" value="204" />
+    <option name="y" value="134" />
     <option name="width" value="1629" />
     <option name="height" value="1000" />
   </component>
@@ -329,7 +330,7 @@
       <workItem from="1489545988405" duration="123000" />
       <workItem from="1489546145418" duration="7160000" />
       <workItem from="1489626113102" duration="4458000" />
-      <workItem from="1489713244843" duration="3835000" />
+      <workItem from="1489713244843" duration="6663000" />
     </task>
     <task id="LOCAL-00001" summary="task1">
       <created>1489547188685</created>
@@ -342,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15576000" />
+    <option name="totallyTimeSpent" value="18404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,7 +355,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="308" y="80" width="1629" height="1000" extended-state="0" />
+    <frame x="204" y="134" width="1629" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21485575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -551,8 +552,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task10/code3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        <state relative-caret-position="122">
+          <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDTask/JS/task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding />
         </state>
       </provider>
