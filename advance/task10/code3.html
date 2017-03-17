@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code3</title>
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+        }
+        li {
+            list-style: none;
+        }
+        .clear:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .wrap {
+            background-color:rgba(0, 0, 0, 0.5);
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: none;
+        }
+        .modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 300px;
+            margin-left: -300px;
+            margin-top: -150px;
+            border: 1px solid;
+            display: none;
+        }
+        .head {
+            height: 100px;
+        }
+        .head a {
+            position: absolute;
+            top: 10px;
+            right: 6px;
+        }
+        .container {
+            height: 100px;
+        }
+        .footer li {
+            float: right;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="click-me">点我</button>
+    <div class="wrap"></div>
+    <div class="modal">
+        <div class="head">
+            <h1>我是标题</h1>
+            <a href="#" class="close">X</a>
+        </div>
+        <div class="container">
+            <p>我是内容</p>
+        </div>
+        <div class="footer clear">
+            <ul>
+                <li>确定</li>
+                <li class="cancel">取消</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var button = document.querySelector('.click-me');
+        var warp = document.querySelector('.wrap');
+        var modal = document.querySelector('.modal');
+        var cancel = document.querySelector('.cancel');
+        var close = document.querySelector('.close');
+        button.addEventListener('click', function () {
+            warp.style.display = 'block';
+            modal.style.display = 'block';
+        });
+        warp.addEventListener('click', function () {
+            warp.style.display = 'none';
+            modal.style.display = 'none';
+        });
+        close.addEventListener('click', function (e) {
+            warp.style.display = 'none';
+            modal.style.display = 'none';
+        });
+        cancel.addEventListener('click', function () {
+            warp.style.display = 'none';
+            modal.style.display = 'none';
+        })
+
+    </script>
+</body>
+</html>
