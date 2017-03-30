@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+//        setTimeout(function () {
+//            console.log(111);
+//        }, 1000);
+//        setInterval(function () {
+//            console.log(222)
+//        }, 1000);
+//        for (var i = 0; i < 14000; i++) {
+//            console.log(1)
+//        }
+//        for (var i = 0; i < 10; i++) {
+//            setTimeout((function (e) {
+//                return function () {
+//                    console.log(e)
+//                }
+//            })(i), 1000)
+//        }
+        for (var i = 0; i < 10; i++) {
+            (function (i) {
+                setTimeout(function () {
+                    console.log(i)
+                }, 1000)
+            })(i)
+        }
+    </script>
+</body>
+</html>

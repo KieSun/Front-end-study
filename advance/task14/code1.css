@@ -1,0 +1,39 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+.nav {
+  width: 200px;
+  background: red; }
+  .nav .category {
+    position: relative; }
+    .nav .category .title {
+      display: block;
+      color: white;
+      padding: 10px 20px; }
+    .nav .category .icon {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      color: white; }
+    .nav .category .child-panel {
+      position: absolute;
+      top: 0;
+      left: 200px;
+      width: 210px;
+      border: solid 1px gray;
+      display: none; }
+      .nav .category .child-panel li {
+        float: left;
+        width: 60px;
+        padding: 10px 20px; }
+
+.nav .category.active .child-panel {
+  display: block; }
+
+/*# sourceMappingURL=code1.css.map */

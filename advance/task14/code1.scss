@@ -1,0 +1,48 @@
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+.nav {
+  width: 200px;
+  background: red;
+
+  .category {
+    position: relative;
+
+    .title {
+      display: block;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .icon {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      color: white;
+    }
+
+    .child-panel {
+      position: absolute;
+      top: 0;
+      left: 200px;
+      width: 210px;
+      border: solid 1px gray;
+      display: none;
+
+      li {
+        float: left;
+        width: 60px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.nav .category.active .child-panel {
+  display: block;
+}
