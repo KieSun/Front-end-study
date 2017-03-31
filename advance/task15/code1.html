@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="head">head</div>
+    <div class="middle">middle</div>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script>
+        $('div').each(function () {
+            console.log($(this).text())
+        });
+        $('.head').clone().appendTo($('.middle'));
+
+        var obj = {};
+        var newObj = {
+            name: 'yck',
+            sex: 'man',
+            array: [1, 2]
+        };
+        $.extend(true, obj, newObj)
+
+    </script>
+</body>
+</html>
