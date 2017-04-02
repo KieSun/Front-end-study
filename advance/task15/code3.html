@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		ul, li {
+			list-style: none;
+		}
+		li {
+			height: 30px;
+			border: 1px solid;
+			margin-top: 20px;
+		}
+		.wrap {
+			text-align: center;
+		}
+		button {
+			width: 100px;
+			height: 30px;
+		}
+	</style>
+</head>
+<body>
+<ul class="ct">
+	<li>内容1</li>
+	<li>内容2</li>
+
+</ul>
+<div class="wrap">
+	<button class="more">加载更多</button>
+</div>
+
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+
+<script>
+	var $ct = $('.ct');
+    var isLock = false;
+	$ct.on('mouseenter', 'li', function () {
+		$(this).css('background-color', 'blue');
+    });
+    $ct.on('mouseleave', 'li', function () {
+        $(this).css('background-color', 'white');
+    });
+
+
+    $('.more').on('click', function () {
+        var start = $ct.children().last().index() + 1;
+        if(isLock){
+            return;
+        }
+        isLock = true;
+        $.ajax({
+            url:'/getMore',
+            type:'GET',
+            data:{
+                start:start,
+                len: 5
+            },
+            success:function (data) {
+                for(var i = 0; i < data.items.length; i++){
+                    $ct.append('<li>'+data.items[i]+'</li>');
+                }
+            },
+            complete:function () {
+                isLock = false;
+            }
+        });
+    })
+</script>
+</body>
+</html>

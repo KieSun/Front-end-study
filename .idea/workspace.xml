@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3df3b2-df48-470b-bb62-60e648b5b85b" name="Default" comment="task1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance/task15/code2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance/task15/code3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -104,21 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task15/code2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="418">
+              <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advance/task13/code1.css">
+      <file leaf-file-name="code3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advance/task15/code3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -170,6 +170,7 @@
         <option value="$PROJECT_DIR$/advance/task14/code3.html" />
         <option value="$PROJECT_DIR$/advance/task15/code1.html" />
         <option value="$PROJECT_DIR$/advance/task15/code2.html" />
+        <option value="$PROJECT_DIR$/advance/task15/code3.html" />
       </list>
     </option>
   </component>
@@ -401,7 +402,7 @@
       <workItem from="1490684404877" duration="4302000" />
       <workItem from="1490748764367" duration="5240000" />
       <workItem from="1490837337938" duration="6340000" />
-      <workItem from="1491127517129" duration="6333000" />
+      <workItem from="1491127517129" duration="7379000" />
     </task>
     <task id="LOCAL-00001" summary="task1">
       <created>1489547188685</created>
@@ -414,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55907000" />
+    <option name="totallyTimeSpent" value="56953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,13 +481,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/advance/task9/code1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1798">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/advance/task9/code2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -837,8 +831,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task15/code2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="418">
+          <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance/task15/code3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>
