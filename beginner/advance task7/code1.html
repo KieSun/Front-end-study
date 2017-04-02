@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script>
+		function trim(str) {
+			return str.replace(/^\s+|\s+$/g, '')
+        }
+        function isEmail(str) {
+	        return /\w+@[\w.-]+/g.test(str)
+        }
+        function isPhoneNum(str) {
+	        return /^(\+86)?1[345678]\d{9}$/.test(str)
+        }
+        function isValidUsername(str) {
+	        return /^[a-z0-9_]{6,20}$/ig.test(str)
+        }
+        function isValidPassword(str) {
+	        if (str.length < 6 || str.length > 20) return false;
+	        if (/^[a-z]+$/g.test(str)) return false;
+            if (/^[A-Z]+$/g.test(str)) return false;
+            if (/^[0-9]+$/g.test(str)) return false;
+            if (/^[_]+$/g.test(str)) return false;
+            return true
+        }
+        function getColor(str) {
+		    var arr = str.match(/:\s(#[0-9a-f]+)/ig);
+		    var result = []
+		    for (var i = 0; i < arr.length; i++) {
+		        result.push(arr[i].replace(/:\s/, ''))
+		    }
+	        return result
+        }
+	</script>
+</head>
+<body>
+
+</body>
+</html>

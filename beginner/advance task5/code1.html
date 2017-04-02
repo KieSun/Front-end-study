@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script>
+        var prod = {
+            name: '女装',
+            styles: ['短款', '冬季', '春装']
+        };
+        function getTplStr(data){
+            var arr = ["<dl class=\"product\">"+"\n"];
+            arr.push("\t"+"<dt>"+data.name+"</dt>"+"\n");
+            for(var key in data.styles) {
+                arr.push("\t"+"<dd>"+data.styles[key]+"</dd>"+"\n");
+            }
+            arr.push("</dl>");
+            return arr.join("");
+        }
+
+        var demo = getTplStr(prod);
+//        console.log(demo);
+
+        var str1 = 'hello, \nworld';
+        var str2 = ['hello', 'world'].join('\n');
+        var str3 = 'hello\\\\饥人谷';
+//		console.log(str3);
+
+		function check(str) {
+			return str.split("").reverse().join("") == str;
+        }
+//        console.log(check('abcba'));
+
+		function camelize(str) {
+			return str.split("-").join("")
+        }
+//        console.log(camelize('background-color'))
+
+		function ucFirst(str) {
+			var firstC = str.substring(0, 1).toUpperCase();
+			return firstC + str.substring(1)
+        }
+//        console.log(ucFirst('upp'))
+
+
+		function truncate(str, maxlength) {
+		    var newStr
+			if (str.length > maxlength) {
+			    newStr = str.substr(0, maxlength) + '...'
+			} else {
+		        newStr = str
+			}
+			return newStr
+        }
+        console.log(truncate("hello, this is hunger valley,", 30))
+	</script>
+</head>
+<body>
+
+</body>
+</html>

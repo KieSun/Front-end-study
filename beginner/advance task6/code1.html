@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script>
+//		function random(start, end) {
+//			return Math.floor(Math.random() * (end - start + 1) + start)
+//        }
+//        for (var i = 0; i < 20; i++) {
+//            console.log(random(1, 10))
+//        }
+
+function getRandStr(lengh) {
+    var arr ="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split('');
+    var randStr = '';
+    for (var i = 0; i < lengh; i++) {
+        var index = Math.floor(Math.random() * arr.length);
+		randStr += arr[index]
+    }
+    return randStr
+}
+//console.log(getRandStr(100));
+
+function getRandIP() {
+    var arr = [];
+    for (var i = 0; i < 4; i++) {
+        arr.push(Math.floor(Math.random() * 256));
+    }
+    return arr.join('.');
+}		
+//console.log(getRandIP());
+
+function getRandColor() {
+	var arr = '0123456789abcdef'.split('');
+	var random = '';
+	for (var i = 0; i < 6; i++) {
+	    var index = Math.floor(Math.random() * arr.length);
+	    random += arr[index];
+	}
+	return '#' + random;
+}
+//console.log(getRandColor());
+		
+var arr = [1, 2, 3]
+//arr.splice(arr.length, 0, 4);
+//arr.splice(arr.length - 1, 1)
+//arr.splice(0, 1)
+//arr.splice(0, 0, 0)
+
+//console.log(arr)
+
+function squareArr(arr){
+	return arr.map(function (e) {
+        return e * e
+    })
+}
+
+function filterPositive(arr){
+    return arr.filter(function (e) {
+	    return typeof e === "number" && e > 0
+    })
+}
+console.log(filterPositive([3, -1,  2,  '饥人谷', true]))
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
