@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.box {
+			height: 1000px;
+		}
+		p {
+			border: 1px solid;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<p>hello</p>
+	<div class="box"></div>
+	<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+	<script>
+        function isVisible($node){
+            if ($node.hasClass('load')) { return }
+            var $windowHeight = $(window).height();
+            var $offset = $node.offset().top;
+            var $scrollTop = $(window).scrollTop();
+            if ($offset  + $node.outerHeight(true) > $scrollTop && $windowHeight + $scrollTop > $offset ) {
+                $node.addClass('load');
+                return true
+            } else  {
+                return false
+            }
+        }
+        $(window).on('scroll', function () {
+	        console.log(isVisible($('p')))
+        })
+
+	</script>
+</body>
+</html>
