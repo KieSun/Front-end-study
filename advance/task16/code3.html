@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		ul, li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.clear:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.container {
+			width: 800px;
+			margin: 0 auto;
+			border: 1px solid;
+		}
+		ul {
+			margin-left: -10px;
+		}
+		li {
+			float: left;
+			width: 260px;
+			margin-left: 10px;
+			margin-top: 20px;
+		}
+		img {
+			width: 260px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<ul class="clear">
+		<li><img src='' data-src='http://cdn.jirengu.com/book.jirengu.com/img/2.jpg' alt=""></li>
+		<li><img src='' data-src="http://cdn.jirengu.com/book.jirengu.com/img/2.jpg" alt=""></li>
+		<li><img src='' data-src="http://cdn.jirengu.com/book.jirengu.com/img/3.jpg" alt=""></li>
+
+
+	</ul>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+<script>
+    function isVisible($node, isLast){
+        if ($node.hasClass('load' && !isLast)) { return }
+        var $windowHeight = $(window).height();
+        var $offset = $node.offset().top;
+        var $scrollTop = $(window).scrollTop();
+        if ($offset  + $node.outerHeight(true) > $scrollTop && $windowHeight + $scrollTop > $offset ) {
+            $node.addClass('load');
+            return true
+        } else  {
+            return false
+        }
+    }
+
+    function getImages() {
+	    for (var i = 0; i < 6; i++) {
+	        $('ul').append("<li><img src='http://cdn.jirengu.com/book.jirengu.com/img/17.jpg'></li>")
+	    }
+    }
+    function check() {
+        $('img').each(function () {
+            if (isVisible($(this))) {
+                var imageUrl = $(this).attr('data-src');
+                $(this).attr('src', imageUrl);
+
+            }
+        });
+        checkLats();
+    }
+    function checkLats() {
+        var $lastImage = $('img').last();
+        if (isVisible($lastImage, true)) {
+            getImages();
+        }
+    }
+    check();
+    $(window).on('scroll', function () {
+        checkLats()
+    })
+
+</script>
+</body>
+</html>

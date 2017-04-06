@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code1</title>
+	<script>
+        var arr = [3,4,5];
+        for(var i = 0; i < arr.length; i++) {
+            console.log(arr[i] * arr[i]);
+        }
+        var obj = {
+            name: 'hunger',
+            sex: 'male',
+            age: 28
+        };
+        for (var key in obj) {
+            console.log(obj[key])
+        }
+
+        var a = 1, b = 2, c = 3;
+        var val = typeof a + b || c >0
+        console.log(val)
+
+        var d = 5;
+        var data = d ==5 && console.log('bb')
+        console.log(data)
+
+        var data2 = d = 0 || console.log('haha')
+        console.log(data2)
+
+        var x = !!"Hello" + (!"world", !!"from here!!");
+        console.log(x)
+	</script>
+</head>
+<body>
+
+</body>
+</html>

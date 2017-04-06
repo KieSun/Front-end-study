@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.btn {
+			width: 100px;
+			height: 100px;
+			border: 1px solid grey;
+		}
+		.box {
+			height: 1000px;
+			border: 1px solid grey;
+		}
+	</style>
 </head>
 <body>
-    <button class="getWeather">获取天气</button>
-    <p class="weather"></p>
-    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+	<div class="btn"></div>
+	<input class="input" type="text">
+	<select class="sel">
+		<option name="chinese">语文</option>
+		<option name="math">数学</option>
+	</select>
+	<p class="text"></p>
+	<div class="box"></div>
 
-    <script>
-        $('.getWeather').on('click', function () {
-            $.ajax({
-                url: 'https://api.seniverse.com/v3/weather/now.json',
-                data: {
-                    key: 'snfw4ptg4zzfbvkn',
-                    location: 'hangzhou',
-                    language: 'zh-Hans',
-                    unit: 'c'
-                },
-                type: 'GET'
-            }).done(function (result) {
-                console.log(result)
-            })
+	<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+	<script>
+		var $btn = $('.btn');
+		$btn.on('click', function () {
+            $(this).animate({
+                backgroundColor: '#FF6B6E'
+            }, 1500).animate({
+                backgroundColor: '#5FCDE3'
+            }, 1500);
+        });
+
+		$(window).on('scroll', function () {
+			console.log($(this).scrollTop())
+        });
+
+		$('.box').on('mouseenter', function () {
+//			$(this).css('background-color', 'red')
+        });
+        $('.box').on('mouseleave', function () {
+            $(this).css('background-color', 'white')
         })
-    </script>
+
+		var $input = $('.input');
+        $input.on('focus', function () {
+	        $(this).css('outlineColor', 'blue')
+        });
+
+		$input.on('keyup', function () {
+		    console.log($(this).val())
+            $(this).val($(this).val().toString().toUpperCase())
+        })
+
+		$('.sel').on('change', function () {
+			$('.text').text($(this).val())
+        })
+	</script>
 </body>
 </html>

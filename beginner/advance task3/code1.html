@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script>
+//		console.log(a);
+//		var a = 1;
+//		var b = (function() { var b = 1 })()
+//		console.log(b)
+
+//		var a = 1;
+//		function sum() {
+//			console.log(a)
+//        }
+//        sum()
+//		(function () {
+//			console.log(a)
+//        })()
+
+//		function getValue(n) {
+//			if (n == 1) {
+//			    return 1
+//			}
+//			return n * getValue(n - 1)
+//        }
+//        console.log(getValue(3))
+//		function getInfo(name, age, sex){
+//		    console.log('name:',name);
+//		    console.log('age:', age);
+//		    console.log('sex:', sex);
+//		    console.log(arguments);
+//		    arguments[0] = 'valley';
+//		    console.log('name', name);
+//		}
+//
+//		getInfo('饥人谷', 2, '男');
+//		getInfo('小谷', 3);
+//		getInfo('男');
+
+//		function sumOfSquares() {
+//		    var result = 0
+//			for (var i = 0; i < arguments.length; i++) {
+//			    result += arguments[i] * arguments[i]
+//			}
+//			return result
+//        }
+//        console.log(sumOfSquares(2, 3, 4))
+//		console.log(a);
+//		var a = 1;
+//		console.log(b);
+//		sayName('world');
+//		sayAge(10);
+//		function sayName(name){
+//		    console.log('hello ', name);
+//		}
+//		var sayAge = function(age){
+//		    console.log(age);
+//		};
+//
+//		var x = 10;
+//		(function (){
+//		    console.log(x)
+//		})()
+//		bar()
+//		function bar(){
+//		    var x = 30;
+//		    (function (){
+//		        console.log(x)
+//		    })()
+//		}
+		var a = 1;
+
+		function fn(){
+		    console.log(a)
+		    var a = 5
+		    console.log(a)
+		    a++
+		    var a
+		    fn3()
+		    fn2()
+		    console.log(a)
+
+		    function fn2(){
+		        console.log(a)
+		        a = 20
+		    }
+		}
+
+		function fn3(){
+		    console.log(a)
+		    a = 200
+		}
+
+		fn()
+		console.log(a)
+	</script>
+</head>
+<body>
+
+</body>
+</html>
