@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button class="getWeather">获取天气</button>
+    <p class="weather"></p>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+
+    <script>
+        $('.getWeather').on('click', function () {
+            $.ajax({
+                url: 'https://api.seniverse.com/v3/weather/now.json',
+                data: {
+                    key: 'snfw4ptg4zzfbvkn',
+                    location: 'hangzhou',
+                    language: 'zh-Hans',
+                    unit: 'c'
+                },
+                type: 'GET'
+            }).done(function (result) {
+                console.log(result)
+            })
+        })
+    </script>
+</body>
+</html>
