@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        ul, li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        .carousel-ct {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .carousel {
+            position: absolute;
+            width: 600px;
+            height: 200px;
+        }
+        .carousel li {
+            float: left;
+        }
+        .carousel li img {
+            width: 300px;
+        }
+        .carousel-ct .btn {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            top: 100px;
+            margin-top: -15px;
+            color: black;
+            text-align: center;
+        }
+        .carousel-ct .btn-left {
+            left: 5px;
+        }
+        .carousel-ct .btn-right {
+            right: 5px;
+        }
+        .carousel-ct .point-ct {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .point-ct li {
+            display: inline-block;
+            width: 30px;
+            height: 10px;
+            border-radius: 3px;
+            background: white;
+        }
+        .point-ct .active {
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-ct">
+        <ul class="carousel">
+            <li><a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/26.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/25.jpg" alt=""></a></li>
+        </ul>
+        <a class="btn btn-left" href="#">&lt;</a>
+        <a class="btn btn-right" href="#">&gt;</a>
+        <div class="point-ct">
+            <ul>
+                <li class="active"><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script>
+        var $carousel = $('.carousel'),
+            $left = $('.btn-left'),
+            $right = $('.btn-right'),
+            $point = $('.point-ct>ul');
+
+        var $firstImage = $carousel.children().first(),
+            $lastImage = $carousel.children().last();
+
+        var isAnimation = false;
+
+        $carousel.append($firstImage.clone());
+        $carousel.prepend($lastImage.clone());
+        $carousel.css({
+            'width': '1200',
+            'left': '-300px'
+        });
+        var currentIndex = 0;
+        var oldIndex = 0;
+
+        $left.on('click', function (element) {
+            element.preventDefault();
+            previous();
+        });
+        $right.on('click', function (element) {
+            element.preventDefault();
+            next();
+        });
+        $point.on('click', function (element) {
+            element.preventDefault();
+            var index = $(element.target).index();
+            if (oldIndex === index) { return }
+            oldIndex = index;
+            if (index - currentIndex > 0) {
+                next();
+            } else {
+                previous();
+            }
+        });
+
+        function next() {
+            if (isAnimation) { return }
+            isAnimation = true;
+            $carousel.animate({
+                "left": '-=300'
+            }, function () {
+                isAnimation = false;
+                $point.children().removeClass('active').eq(currentIndex - 1).addClass('active');
+                currentIndex++;
+                if (currentIndex === 2) {
+                    $carousel.css('left', '-300px');
+                    currentIndex = 0;
+                }
+            })
+        }
+        function previous() {
+            if (isAnimation) { return }
+            isAnimation = true;
+            $carousel.animate({
+                "left": '+=300'
+            }, function () {
+                isAnimation = false;
+                currentIndex--;
+                $point.children().removeClass('active').eq(currentIndex).addClass('active');
+
+                if (currentIndex < 0) {
+                    $carousel.css('left', '-600px');
+                    currentIndex = 1;
+                }
+            })
+        }
+    </script>
+</body>
+</html>

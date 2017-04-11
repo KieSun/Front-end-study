@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3df3b2-df48-470b-bb62-60e648b5b85b" name="Default" comment="task1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance/task16/code3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance/task17/code1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="code1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task13/code1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="319">
               <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding />
             </state>
@@ -37,7 +37,7 @@
       <file leaf-file-name="code1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task14/code1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
+            <state relative-caret-position="2407">
               <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
               <folding />
             </state>
@@ -47,7 +47,7 @@
       <file leaf-file-name="code3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task14/code3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3982">
+            <state relative-caret-position="5249">
               <caret line="181" column="39" lean-forward="false" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="39" />
               <folding />
             </state>
@@ -57,9 +57,11 @@
       <file leaf-file-name="code1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task15/code1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="77" />
-              <folding />
+            <state relative-caret-position="754">
+              <caret line="81" column="7" lean-forward="false" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+              <folding>
+                <marker date="1491447112000" expanded="true" signature="1682:1689" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,19 +69,12 @@
       <file leaf-file-name="code2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task15/code2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advance/task15/code3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="812">
+              <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <folding>
+                <marker date="1491447117000" expanded="true" signature="1447:1455" ph="..." />
+                <marker date="1491447117000" expanded="true" signature="1447:1463" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +82,8 @@
       <file leaf-file-name="code1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task16/code1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="1044">
+              <caret line="36" column="13" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -97,19 +92,32 @@
       <file leaf-file-name="code2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task16/code2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="75" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="7" />
+            <state relative-caret-position="1102">
+              <caret line="38" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/task16/code3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="342">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="73" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advance/task17/code1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-533">
+              <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+              <folding>
+                <element signature="e#1836#1840#1" expanded="true" />
+                <element signature="e#1887#1891#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,6 +181,7 @@
         <option value="$PROJECT_DIR$/advance/task16/code1.html" />
         <option value="$PROJECT_DIR$/advance/task16/code2.html" />
         <option value="$PROJECT_DIR$/advance/task16/code3.html" />
+        <option value="$PROJECT_DIR$/advance/task17/code1.html" />
       </list>
     </option>
   </component>
@@ -189,10 +198,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="585" />
-    <option name="y" value="37" />
-    <option name="width" value="1101" />
-    <option name="height" value="870" />
+    <option name="x" value="875" />
+    <option name="y" value="50" />
+    <option name="width" value="852" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="添加" />
@@ -212,8 +221,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,25 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task16" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front-end-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front-end-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task15" />
+              <option name="myItemId" value="task17" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,6 +442,7 @@
       <workItem from="1491271701268" duration="204000" />
       <workItem from="1491271926490" duration="238000" />
       <workItem from="1491272219204" duration="5271000" />
+      <workItem from="1491887522321" duration="6962000" />
     </task>
     <task id="LOCAL-00001" summary="task1">
       <created>1489547188685</created>
@@ -463,7 +455,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63186000" />
+    <option name="totallyTimeSpent" value="70148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,10 +467,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="37" width="1101" height="870" extended-state="0" />
+    <frame x="875" y="50" width="852" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22962964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22887324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -511,13 +503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/beginner/Task5/HTML表单的使用方法.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beginner/Task5/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,18 +742,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/jquery-3.2.0.min.js" />
-    <entry file="file://$USER_HOME$/Desktop/study/jquery-3.2.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="5924" column="4" lean-forward="false" selection-start-line="5924" selection-start-column="4" selection-end-line="5924" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/study/jquery-3.2.0.js" />
     <entry file="file://$PROJECT_DIR$/advance/task14/code2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9020">
@@ -781,7 +757,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task14/code3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3982">
+        <state relative-caret-position="5249">
           <caret line="181" column="39" lean-forward="false" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="39" />
           <folding />
         </state>
@@ -789,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task13/code1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="319">
           <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
         </state>
@@ -797,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task14/code1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
+        <state relative-caret-position="2407">
           <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
           <folding />
         </state>
@@ -805,9 +781,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task15/code2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="812">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <marker date="1491447117000" expanded="true" signature="1447:1455" ph="..." />
+            <marker date="1491447117000" expanded="true" signature="1447:1463" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +800,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task15/code1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="77" />
-          <folding />
+        <state relative-caret-position="754">
+          <caret line="81" column="7" lean-forward="false" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <marker date="1491447112000" expanded="true" signature="1682:1689" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,31 +826,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task16/code1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="1044">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task16/code2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="75" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="7" />
+        <state relative-caret-position="1102">
+          <caret line="38" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advance/task16/code3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance/task17/code1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+          <folding>
+            <element signature="e#1836#1840#1" expanded="true" />
+            <element signature="e#1887#1891#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
